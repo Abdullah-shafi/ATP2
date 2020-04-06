@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>API Client</title>
+	<script type="text/javascript" src="jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="myScript.js"></script>
+</head>
+<body>
+	<h2>Employee</h2>
+	<table>
+		<tr>
+			<td>Employee Name</td>
+			<td><input type="text" id="employeeName"/></td>
+		</tr>
+		<tr>
+			<td>Salary</td>
+			<td><input type="text" id="salary"/></td>
+		</tr>
+		<tr>
+			<td>Department Id</td>
+			<td><input type="text" id="deptId"/></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><button id="createE">Create</button></td>
+		</tr>
+	</table>
+	<hr/>
+	<table>
+		<tr>
+			<td>Employee Id</td>
+			<td><input type="text" id="employeeId"/></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><button id="deleteE">Delete</button></td>
+		</tr>
+	</table>
+	<hr/>
+	<br/>
+	<button id="loade">Load Data</button>
+	<br/>
+	<label id="msg"></label>
+	<br/><br/>
+	<table id="list" border="1">
+		<thead>
+			<tr>
+				<th>Employee Id</th>
+				<th>Employee Name</th>
+				<th>Department Id</th>
+				<th>Salary</th>
+			</tr>
+		</thead>
+		<tbody>
+
+		</tbody>
+	</table>
+
+</body>
+</html>
